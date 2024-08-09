@@ -15,7 +15,7 @@ A modern, lightweight starter template for Preact projects with Vite and Jest. F
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/preact-vite-jest-starter.git
+   git clone https://github.com/jameswquinn/preact-vite-jest-starter.git
    cd preact-vite-jest-starter
    ```
 
