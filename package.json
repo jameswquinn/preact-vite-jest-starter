@@ -11,6 +11,11 @@
     "test:watch": "jest --config jest.config.cjs --watch",
     "test:coverage": "jest --config jest.config.cjs --coverage"
   },
+  "files": [
+  "dist",
+  "README.md",
+  "LICENSE"
+],
   "dependencies": {
     "preact": "^10.15.1"
   },
