@@ -1,8 +1,6 @@
 {
   "name": "preact-vite-jest-starter",
   "version": "1.0.0",
-  "description": "A modern, lightweight starter template for Preact projects with Vite and Jest",
-  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +8,8 @@
     "preview": "vite preview",
     "test": "jest --config jest.config.cjs",
     "test:watch": "jest --config jest.config.cjs --watch",
-    "test:coverage": "jest --config jest.config.cjs --coverage"
+    "test:coverage": "jest --config jest.config.cjs --coverage",
+    "vercel-build": "vite build"
   },
   "files": [
     "dist",
