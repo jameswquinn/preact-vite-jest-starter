@@ -16,13 +16,6 @@
     "README.md",
     "LICENSE",
   ],
-  "keywords": [
-    "preact",
-    "vite",
-    "jest",
-    "starter",
-    "template"
-  ],
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
   "repository": {
