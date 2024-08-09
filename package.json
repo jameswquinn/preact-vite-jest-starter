@@ -1,7 +1,8 @@
 {
-  "name": "preact-vite-jest-template",
-  "private": true,
-  "version": "0.0.0",
+  "name": "preact-vite-jest-starter",
+  "version": "1.0.0",
+  "description": "A modern, lightweight starter template for Preact projects with Vite and Jest",
+  "private": false,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,10 +13,32 @@
     "test:coverage": "jest --config jest.config.cjs --coverage"
   },
   "files": [
-  "dist",
-  "README.md",
-  "LICENSE"
-],
+    "dist",
+    "src",
+    "tests",
+    "README.md",
+    "LICENSE",
+    "vite.config.js",
+    "jest.config.cjs",
+    "babel.config.cjs"
+  ],
+  "keywords": [
+    "preact",
+    "vite",
+    "jest",
+    "starter",
+    "template"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/preact-vite-jest-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/preact-vite-jest-starter/issues"
+  },
+  "homepage": "https://github.com/yourusername/preact-vite-jest-starter#readme",
   "dependencies": {
     "preact": "^10.15.1"
   },
