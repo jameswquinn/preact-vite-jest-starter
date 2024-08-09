@@ -1,0 +1,52 @@
+# Source files
+src/
+
+# Test files
+tests/
+*.test.js
+*.spec.js
+
+# Configuration files
+.babelrc
+.eslintrc
+.prettierrc
+vite.config.js
+jest.config.js
+
+# Git files
+.git/
+.gitignore
+
+# CI files
+.travis.yml
+.gitlab-ci.yml
+.github/
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build tools
+webpack.config.js
+rollup.config.js
+
+# Misc
+.DS_Store
+*.swp
+*.swo
+
+# npm pack output
+*.tgz
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary files
+tmp/
+temp/
