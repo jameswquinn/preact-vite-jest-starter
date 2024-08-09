@@ -27,12 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/preact-vite-jest-starter.git"
+    "url": "https://github.com/jameswquinn/preact-vite-jest-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/preact-vite-jest-starter/issues"
+    "url": "https://github.com/jameswquinn/preact-vite-jest-starter/issues"
   },
-  "homepage": "https://github.com/yourusername/preact-vite-jest-starter#readme",
+  "homepage": "https://github.com/jameswquinn/preact-vite-jest-starter#readme",
   "dependencies": {
     "preact": "^10.15.1"
   },
