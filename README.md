@@ -2,7 +2,7 @@
 
 A modern, lightweight starter template for Preact projects with Vite and Jest. Fast development, optimized builds, and robust testing out of the box.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/preact-vite-jest-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jameswquinn/preact-vite-jest-starter)
 
 ## Features
 
