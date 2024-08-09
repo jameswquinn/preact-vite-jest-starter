@@ -1,0 +1,12 @@
+{
+  "template": "vite",
+  "node": "18",
+  "container": {
+    "node": "18",
+    "port": 5173
+  },
+  "hardReloadOnChange": true,
+  "installDependencies": true,
+  "startScript": "dev",
+  "view": "browser"
+}
