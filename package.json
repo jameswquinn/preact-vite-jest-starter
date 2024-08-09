@@ -14,13 +14,8 @@
   },
   "files": [
     "dist",
-    "src",
-    "tests",
     "README.md",
     "LICENSE",
-    "vite.config.js",
-    "jest.config.cjs",
-    "babel.config.cjs"
   ],
   "keywords": [
     "preact",
