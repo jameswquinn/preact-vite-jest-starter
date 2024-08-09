@@ -1,6 +1,8 @@
-# Preact Vite Jest Template
+# Preact Vite Jest Starter
 
-This is a template for setting up a Preact project with Vite as the build tool and Jest for testing. It provides a solid foundation for building modern, performant web applications with a great developer experience.
+A modern, lightweight starter template for Preact projects with Vite and Jest. Fast development, optimized builds, and robust testing out of the box.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/preact-vite-jest-starter)
 
 ## Features
 
@@ -13,8 +15,8 @@ This is a template for setting up a Preact project with Vite as the build tool a
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/preact-vite-jest-template.git
-   cd preact-vite-jest-template
+   git clone https://github.com/yourusername/preact-vite-jest-starter.git
+   cd preact-vite-jest-starter
    ```
 
 2. Install dependencies:
@@ -41,7 +43,7 @@ This is a template for setting up a Preact project with Vite as the build tool a
 ## Project Structure
 
 ```
-preact-vite-jest-template/
+preact-vite-jest-starter/
 ├── src/
 │   ├── components/
 │   │   └── HelloWorld.jsx
@@ -55,122 +57,15 @@ preact-vite-jest-template/
 ├── jest.config.cjs
 ├── package.json
 ├── README.md
+├── vercel.json
 └── vite.config.js
 ```
 
-## API Documentation
+## Deployment
 
-### Components
+This project is set up for easy deployment to Vercel. Simply click the "Deploy" button at the top of this README to create a new project directly from this template.
 
-#### HelloWorld
-
-A simple component that renders "Hello, World!".
-
-Usage:
-```jsx
-import { HelloWorld } from './components/HelloWorld';
-
-function App() {
-  return <HelloWorld />;
-}
-```
-
-Props: None
-
-### Hooks
-
-This template doesn't include any custom hooks out of the box, but you can use all of Preact's built-in hooks. Here's an example of using the `useState` hook:
-
-```jsx
-import { h } from 'preact';
-import { useState } from 'preact/hooks';
-
-function Counter() {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-    </div>
-  );
-}
-```
-
-## FAQ
-
-### Q: Why use Preact instead of React?
-
-A: Preact is a lightweight alternative to React with a nearly identical API. It's smaller in size (about 3KB gzipped), which can lead to faster load times and better performance, especially on mobile devices or in areas with slower internet connections.
-
-### Q: How do I add routing to this template?
-
-A: You can use [Preact Router](https://github.com/preactjs/preact-router). Install it with `npm install preact-router`, and then use it in your app like this:
-
-```jsx
-import { h } from 'preact';
-import { Router } from 'preact-router';
-import Home from './routes/home';
-import About from './routes/about';
-
-const App = () => (
-  <Router>
-    <Home path="/" />
-    <About path="/about" />
-  </Router>
-);
-```
-
-### Q: Can I use this template for a production application?
-
-A: Yes, this template provides a solid foundation for a production Preact application. However, you may want to add additional features like state management (e.g., Redux), styling solutions (e.g., CSS Modules or Styled Components), and potentially server-side rendering depending on your specific needs.
-
-### Q: How do I deploy this application?
-
-A: After running `npm run build`, you can deploy the contents of the `dist` directory to any static file hosting service. Some popular options include:
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [GitHub Pages](https://pages.github.com/)
-
-### Q: How do I add TypeScript support?
-
-A: To add TypeScript support:
-
-1. Install necessary dependencies:
-   ```
-   npm install --save-dev typescript @types/jest
-   ```
-
-2. Rename your `.js` and `.jsx` files to `.ts` and `.tsx` respectively.
-
-3. Create a `tsconfig.json` file in the root directory:
-   ```json
-   {
-     "compilerOptions": {
-       "target": "ESNext",
-       "useDefineForClassFields": true,
-       "lib": ["DOM", "DOM.Iterable", "ESNext"],
-       "allowJs": false,
-       "skipLibCheck": true,
-       "esModuleInterop": false,
-       "allowSyntheticDefaultImports": true,
-       "strict": true,
-       "forceConsistentCasingInFileNames": true,
-       "module": "ESNext",
-       "moduleResolution": "Node",
-       "resolveJsonModule": true,
-       "isolatedModules": true,
-       "noEmit": true,
-       "jsx": "react-jsx",
-       "jsxImportSource": "preact"
-     },
-     "include": ["src"],
-     "references": [{ "path": "./tsconfig.node.json" }]
-   }
-   ```
-
-4. Update your `vite.config.js` to `vite.config.ts`.
-
-5. Update your Jest configuration to handle TypeScript files.
+For other deployment options, refer to the [Vite deployment guide](https://vitejs.dev/guide/static-deploy.html).
 
 ## Contributing
 
@@ -178,4 +73,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
