@@ -1,5 +1,5 @@
 {
-  "name": "preactvitejeststarter",
+  "name": "preact-vite-jest-starter",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -14,7 +14,6 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE",
   ],
   "author": "jameswquinn",
   "license": "MIT",
